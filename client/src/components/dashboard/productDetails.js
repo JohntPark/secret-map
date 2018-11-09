@@ -10,7 +10,6 @@ const ProductDetails = props => {
                     <button className="delete" aria-label="close" onClick={props.closeModal}></button>
                 </header>
                 <section className="modal-card-body">
-                    <img src="https://glidewelldental.com/wp-content/uploads/2015/12/services-ic-bruxzir-original.jpg" />
                     <p>These teeth are top-shelf.  Can chow through steak, veggies, and lasts for a very long time. Available in all countries.</p>
                 </section>
                 <footer className="modal-card-foot">

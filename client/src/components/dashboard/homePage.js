@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Logo from './logo';
 import WorldMap from './worldmap';
 import Search from './search';
 import Footer from '../footer/footer'
@@ -21,7 +20,6 @@ class HomePage extends Component {
     render() {
         return (
             <div>
-                <Logo />
                 <WorldMap updateCountryName={this.updateCountryName} />
                 <Search
                     countryName={this.state.countryName}

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Glidewell from '../../assets/glidewellLogo.jpeg';
 import { Link } from 'react-router-dom';
 import './admin.css';
 
@@ -23,7 +22,6 @@ class NavBar extends Component {
       <nav className='navbar is-dark' id='navbarStyle'>
         <div className='navbar-brand '>
           <Link to='/dashboard' className='navbar-item'>
-            <img id='logo' src={Glidewell} alt='logo' />
           </Link>
 
           <a
